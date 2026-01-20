@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Осьминог — ресторан морепродуктов</title>
+  <meta name="description" content="Осьминог — ресторан авторской кухни с морепродуктами. Москва, Пречистенская наб., 45/1. Бронирование столов, меню, доставка." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <!-- WhatsApp floating button -->
+  <a class="wa-fab" href="https://wa.me/79990000000" target="_blank" rel="noopener" aria-label="Написать в WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Осьминог — на главную">
+        <span class="brand__logo">ОСЬМИНОГ</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__lines" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+        <a href="#about">О РЕСТОРАНЕ</a>
+        <a href="#team">КОМАНДА</a>
+        <a href="#menu">МЕНЮ</a>
+        <a href="#dish-gallery">ГАЛЕРЕЯ МЕНЮ</a>
+        <a href="#gallery">ГАЛЕРЕЯ</a>
+        <a href="#contacts">КОНТАКТЫ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-label="Ресторан Осьминог">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__kicker">Саратов • Пречистенская наб., 45/1</p>
+          <h1 class="hero__title">Осьминог, как символ</h1>
+          <p class="hero__subtitle">Ресторан, где море встречается с искусством</p>
+          <p class="hero__text">
+            Авторская кухня с морепродуктами: свежайшие осьминоги, средиземноморские вкусы и русская смелость в деталях.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#reserve" data-open-modal="reserve">Заказать доставку</a>
+            <a class="btn btn--ghost" href="#menu">Позвонить нам</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__fade" aria-hidden="true"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Осьминог, как символ</h2>
+          <p class="lead">Ресторан, где море встречается с искусством</p>
+        </div>
+
+        <div class="about">
+          <article class="about__text">
+            <p>
+              «Осьминог» — это камерный ресторан у воды, в котором морская природа превращается в гастрономию.
+              Мы работаем с лучшими поставщиками: от свежих осьминогов и морских ежей до сезонной рыбы и
+              деликатных соусов на основе цитруса и трав.
+            </p>
+            <p>
+              Наш стиль — минимализм и внимание к деталям: чистые вкусы, точные текстуры и идеальная температура подачи.
+              Средиземноморская кухня с русским характером — честная, яркая, с лёгкой дерзостью.
+            </p>
+            <div class="about__meta">
+              <div class="meta">
+                <div class="meta__label">Режим работы</div>
+                <div class="meta__value">12:00 — 00:00</div>
+              </div>
+              <div class="meta">
+                <div class="meta__label">Адрес</div>
+                <div class="meta__value">Москва, Пречистенская наб., 45/1</div>
+              </div>
+            </div>
+          </article>
+
+          <aside class="about__media" aria-label="Интерьер ресторана">
+            <img class="media" src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=1400&q=80" alt="Элегантный интерьер ресторана" loading="lazy" />
+            <img class="media media--small" src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80" alt="Подача морепродуктов" loading="lazy" />
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section section--tint" id="team">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Команда</h2>
+          <p class="lead">Трое шефов — один характер: море, техника и вкус.</p>
+        </div>
+
+        <div class="team">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1604908554086-9d3dca8f06c0?auto=format&fit=crop&w=1200&q=80" alt="Шеф-повар Марк Воронцов" loading="lazy" />
+            <div class="card__body">
+              <h3 class="h3">Марк Воронцов</h3>
+              <p class="card__role">Шеф-повар</p>
+              <p class="card__text">Специализация — осьминог на живом огне, соусы на основе цитруса и ферментаций, точная степень прожарки.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1528712306091-ed0763094c98?auto=format&fit=crop&w=1200&q=80" alt="Шеф-повар Ева Нестерова" loading="lazy" />
+            <div class="card__body">
+              <h3 class="h3">Ева Нестерова</h3>
+              <p class="card__role">Шеф по холодному цеху</p>
+              <p class="card__text">Круды, тартары, морские ежи и тонкая работа с текстурой. Вкус строит на свежести и кислотности.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1548940740-204726a19be3?auto=format&fit=crop&w=1200&q=80" alt="Шеф-повар Илья Кравченко" loading="lazy" />
+            <div class="card__body">
+              <h3 class="h3">Илья Кравченко</h3>
+              <p class="card__role">Шеф по горячему</p>
+              <p class="card__text">Средиземноморская классика с русским акцентом: ризотто с морепродуктами, рыба дня, домашняя паста.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU CTA (yellow) -->
+    <section class="menu-cta" id="menu">
+      <div class="menu-cta__decor menu-cta__decor--left" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy" />
+      </div>
+      <div class="menu-cta__decor menu-cta__decor--right" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy" />
+      </div>
+
+      <div class="container menu-cta__inner">
+        <div class="menu-cta__content">
+          <h2 class="menu-cta__title">МЕНЮ</h2>
+          <p class="menu-cta__text">Классика Средиземноморья, сезонные продукты и лучшие морепродукты — в авторской интерпретации.</p>
+          <div class="menu-cta__actions">
+            <a class="btn btn--dark" href="#dish-gallery">Сделать заказ</a>
+
+            <a class="btn btn--dark-ghost" href="tel:777777777" data-open-modal="reserve">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DISH GALLERY (menu gallery) -->
+    <section class="section" id="dish-gallery">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Галерея меню</h2>
+          <p class="lead">Фирменные блюда и подача — крупным планом.</p>
+        </div>
+
+        <div class="grid" role="list">
+          <a class="tile" href="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=2200&q=80" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1604908554086-9d3dca8f06c0?auto=format&fit=crop&w=1400&q=80" alt="Блюдо из морепродуктов" loading="lazy" />
+          </a>
+          <a class="tile" href="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=2200&q=80" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1400&q=80" alt="Морепродукты на тарелке" loading="lazy" />
+          </a>
+          <a class="tile" href="https://images.unsplash.com/photo-1548940740-204726a19be3?auto=format&fit=crop&w=2200&q=80" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1548940740-204726a19be3?auto=format&fit=crop&w=1400&q=80" alt="Паста с морепродуктами" loading="lazy" />
+          </a>
+          <a class="tile" href="https://images.unsplash.com/photo-1604908177231-0a8bf74e94d7?auto=format&fit=crop&w=2200&q=80" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1604908177231-0a8bf74e94d7?auto=format&fit=crop&w=1400&q=80" alt="Осьминог на гриле" loading="lazy" />
+          </a>
+          <a class="tile" href="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=2200&q=80" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=1400&q=80" alt="Тарелка с морепродуктами" loading="lazy" />
+          </a>
+          <a class="tile" href="https://images.unsplash.com/photo-1541542684-4bf98c8d7b74?auto=format&fit=crop&w=2200&q=80" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1541542684-4bf98c8d7b74?auto=format&fit=crop&w=1400&q=80" alt="Устрицы и лимон" loading="lazy" />
+          </a>
+          <a class="tile" href="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=2200&q=80" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1400&q=80" alt="Салат с морепродуктами" loading="lazy" />
+          </a>
+          <a class="tile" href="https://images.unsplash.com/photo-1553621042-9fd9d6a7e4d4?auto=format&fit=crop&w=2200&q=80" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1553621042-9fd9d6a7e4d4?auto=format&fit=crop&w=1400&q=80" alt="Креветки и соус" loading="lazy" />
+          </a>
+        </div>
+
+        <a class="btn btn--primary" style="margin-top: 30px;" href="#reserve" data-open-modal="reserve">Заказать доставку</a>
+      </div>
+
+    </section>
+
+    <!-- GALLERY (interior) -->
+    <section class="section section--tint" id="gallery">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="h2">Галерея</h2>
+          <p class="lead">Интерьер, свет и атмосфера вечера у воды.</p>
+        </div>
+
+        <div class="gallery">
+          <a class="gallery__item" href="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=2200&q=80" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1400&q=80" alt="Интерьер ресторана" loading="lazy" />
+          </a>
+          <a class="gallery__item" href="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=2200&q=80" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=1400&q=80" alt="Зал ресторана" loading="lazy" />
+          </a>
+          <a class="gallery__item" href="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=2200&q=80" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1400&q=80" alt="Сервировка стола" loading="lazy" />
+          </a>
+          <a class="gallery__item" href="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=2200&q=80" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1400&q=80" alt="Бар и свет" loading="lazy" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DELIVERY -->
+    <section class="section" id="delivery">
+      <div class="container">
+        <div class="delivery">
+          <div class="delivery__content">
+            <h2 class="h2">Доставка</h2>
+            <p class="lead">Заказывайте любимые блюда домой — быстро, аккуратно и с сохранением температуры.</p>
+            <p>
+              Мы бережно упаковываем морепродукты и горячие блюда, чтобы они приехали к вам такими же, как на кухне.
+              Доставка доступна ежедневно с 12:00 до 23:30.
+            </p>
+            <div class="delivery__actions">
+              <a class="btn btn--primary" href="https://wa.me/79990000000" target="_blank" rel="noopener">Написать в WhatsApp</a>
+              <a class="btn btn--ghost" href="#contacts">Заказать доставку</a>
+            </div>
+          </div>
+          <div class="delivery__media" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1541542684-4bf98c8d7b74?auto=format&fit=crop&w=1400&q=80" alt="" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="section section--footer" id="contacts">
+      <div class="container footer">
+        <div class="footer__top">
+          <div>
+            <div class="footer__brand">ОСЬМИНОГ</div>
+            <p class="footer__desc">Авторская кухня с морепродуктами. Средиземноморье с русским характером.</p>
+          </div>
+          <div class="footer__cols">
+            <div class="footer__col">
+              <div class="footer__label">Адрес</div>
+              <div class="footer__value">Москва, Пречистенская наб., 45/1</div>
+            </div>
+            <div class="footer__col">
+              <div class="footer__label">Режим работы</div>
+              <div class="footer__value">12:00 — 00:00</div>
+            </div>
+            <div class="footer__col">
+              <div class="footer__label">Связь</div>
+              <div class="footer__value">
+                <a href="tel:+79990000000">+7 (999) 000-00-00</a><br>
+                <a href="mailto:hello@osminog.rest">hello@osminog.rest</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <small>© <span id="year"></span> Ресторан «Осьминог». Все права защищены.</small>
+          <a class="to-top" href="#top">Наверх</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Reserve modal -->
+  <div class="modal" id="reserve" role="dialog" aria-modal="true" aria-labelledby="reserve-title" aria-hidden="true">
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__panel" role="document">
+      <button class="modal__close" type="button" aria-label="Закрыть" data-close-modal>
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+      <h2 class="h2" id="reserve-title">Заказать доставку</h2>
+      <p class="muted">Оставьте контакты — мы перезвоним и подтвердим бронь.</p>
+
+      <form class="form" id="reserve-form">
+        <label class="field">
+          <span>Имя</span>
+          <input name="name" type="text" autocomplete="name" required />
+        </label>
+        <label class="field">
+          <span>Телефон</span>
+          <input name="phone" type="tel" inputmode="tel" placeholder="+7" required />
+        </label>
+        <label class="field">
+          <span>Дата и время</span>
+          <input name="datetime" type="datetime-local" required />
+        </label>
+        <label class="field">
+          <span>Комментарий</span>
+          <textarea name="comment" rows="3" placeholder="Пожелания по столу, аллергии и т.д."></textarea>
+        </label>
+        <button class="btn btn--primary" type="submit">Отправить</button>
+        <p class="form__note" id="reserve-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox__backdrop" data-lightbox-close></div>
+    <figure class="lightbox__figure" role="dialog" aria-modal="true" aria-label="Просмотр изображения">
+      <button class="lightbox__close" type="button" aria-label="Закрыть" data-lightbox-close>
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+      <img id="lightbox-img" alt="" />
+      <figcaption id="lightbox-cap" class="lightbox__cap"></figcaption>
+    </figure>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
